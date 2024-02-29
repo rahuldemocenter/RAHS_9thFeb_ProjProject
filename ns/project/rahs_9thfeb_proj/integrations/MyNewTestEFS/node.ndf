@@ -32,6 +32,40 @@
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
         </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">num1</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">num2</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -62,9 +96,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">rawa</value>
-    <value name="createdDate">1709200759640</value>
-    <value name="lastModifiedDate">1709200759640</value>
+    <value name="lastModifiedBy">rawa</value>
+    <value name="lastModifiedDate">1709200830740</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">c700f6aedadf45cab77365d4b75bc4d2</value>
       <value name="group">default</value>
@@ -91,6 +124,24 @@
         <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">TestWIE1344</value>
+          <value name="groupName">TestWIE1344;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">TestWIE1344.services:addInt</value>
+          <value name="serviceName">TestWIE1344.services:addInt</value>
+          <value name="displayName">addInt</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">2</number>
+        <number name="nodeIndex" type="Long">1</number>
       </record>
     </record>
   </record>
