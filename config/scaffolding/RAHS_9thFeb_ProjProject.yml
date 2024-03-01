@@ -31,6 +31,12 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.741
+- serviceName: project.rahs_9thfeb_proj.integrations:RAHS_EFS_TestDebug
+  packages:
+  - name: RAHS_9thFeb_ProjProject
+    version: "1.0"
+  - name: TestWIE1344
+    version: "1.0"
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
